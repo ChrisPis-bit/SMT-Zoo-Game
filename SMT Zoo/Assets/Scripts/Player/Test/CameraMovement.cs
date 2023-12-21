@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
+// Old crappy movement script for testing
 public class CameraMovement : MonoBehaviour
 {
     public float mouseSensitivity = 1, moveSpeed = 0.5f;
@@ -60,6 +61,8 @@ public class CameraMovement : MonoBehaviour
     void MoveCamera()
     {
         Vector3 forwardDir = transform.rotation * Vector3.forward;
+        forwardDir.y = 0;
+        forwardDir = forwardDir.normalized;
         Vector3 rightDir = transform.rotation * Vector3.right;
 
         Vector3 velocity = (forwardDir * forward + rightDir * right + Vector3.up * up) * moveSpeed * Time.deltaTime;

@@ -39,7 +39,6 @@ public class MapInteractor : MonoBehaviour
             {
                 Vector3 localPos = transform.InverseTransformPoint(hitInfo.point);
                 Vector2 mapCoords = new Vector2(localPos.x, localPos.y) * _mapSize;
-                Debug.Log("Map: " + mapCoords + " - Local: " + localPos);
 
                 if(_testWorldIndicator) _testWorldIndicator.position = new Vector3(mapCoords.x, 0, mapCoords.y);
 
