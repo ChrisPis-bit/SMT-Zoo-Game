@@ -7,6 +7,7 @@ using UnityEngine.PlayerLoop;
 // Old crappy movement script for testing
 public class CameraMovement : MonoBehaviour
 {
+    public Camera cam;
     public float mouseSensitivity = 1, moveSpeed = 0.5f;
 
     float xAxisClamp;
@@ -51,6 +52,14 @@ public class CameraMovement : MonoBehaviour
         }
 
         RotateCamera();
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            if (cam.cullingMask == 0)
+                cam.cullingMask = 1;
+            else
+                cam.cullingMask = 0;
+        }
     }
 
     private void FixedUpdate()
@@ -80,7 +89,7 @@ public class CameraMovement : MonoBehaviour
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");
 
-        Vector2 rotAmount = new Vector2(mouseX, mouseY) * mouseSensitivity ;
+        Vector2 rotAmount = new Vector2(mouseX, mouseY) * mouseSensitivity;
 
         Vector3 rot = transform.rotation.eulerAngles;
         rot.y += rotAmount.x;
