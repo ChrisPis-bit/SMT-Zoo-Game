@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ecaadb50-d673-418e-9658-019b0cd39bfa}">
+		<property name="assetPath">
+			<value>mixkit-crickets-and-insects-in-the-wild-ambience-39.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>26.011791383219954</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b4c44efe-895a-49a6-ac93-bff2aa7ee58b}</destination>
+		</relationship>
+	</object>
+</objects>
