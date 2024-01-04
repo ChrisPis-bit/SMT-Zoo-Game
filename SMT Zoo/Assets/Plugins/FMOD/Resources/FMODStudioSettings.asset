@@ -350,8 +350,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../../FMod/Zoo/Zoo.fspro
-  sourceBankPath: ../../../../FMod/Zoo/Build
+  sourceProjectPath: ../Zoo/Zoo.fspro
+  sourceBankPath: ../Zoo/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -392,17 +392,17 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131609
   Platforms:
-  - {fileID: -2104975886820709291}
-  - {fileID: 3623132868856152880}
   - {fileID: -5595131721478705820}
+  - {fileID: -4455184180077825705}
+  - {fileID: -4186569528441094688}
+  - {fileID: -2104975886820709291}
+  - {fileID: -2085469245538029947}
+  - {fileID: 13521013410683730}
   - {fileID: 652356298504762628}
+  - {fileID: 2012210672305139460}
+  - {fileID: 3623132868856152880}
   - {fileID: 8542075216776622599}
   - {fileID: 8818007829964639657}
-  - {fileID: 2012210672305139460}
-  - {fileID: -4455184180077825705}
-  - {fileID: 13521013410683730}
-  - {fileID: -2085469245538029947}
-  - {fileID: -4186569528441094688}
   MigratedPlatforms: 0500000012000000060000000b000000080000000a000000090000000c000000150000000200000001000000
 --- !u!114 &13521013410683730
 MonoBehaviour:
@@ -670,14 +670,14 @@ MonoBehaviour:
   displaySortOrder: 0
   childIdentifiers:
   - 46fbfdf3fc43db0458918377fd40293e
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - e7a046c753c3c3d4aacc91f6597f310d
+  - c88d16e5272a4e241b0ef0ac2e53b73d
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - 2c5177b11d81d824dbb064f9ac8527da
   - 52eb9df5db46521439908db3a29a1bbb
   - b7716510a1f36934c87976f3a81dbf3d
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - 0f8eb3f400726694eb47beb1a9f94ce8
-  - c88d16e5272a4e241b0ef0ac2e53b73d
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - fd7c55dab0fce234b8c25f6ffca523c1
   codecChannels:
     Value: []
     HasValue: 0
