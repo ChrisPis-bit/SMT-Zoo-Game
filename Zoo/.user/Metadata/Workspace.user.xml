@@ -13,7 +13,7 @@
 			<value>Event Editor 1</value>
 		</property>
 		<property name="windowLayout">
-			<value>AAAAAQAAABwARQB2AGUAbgB0ACAARQBkAGkAdABvAHIAIAAxAAAAQgHZ0MsAAwAA///4fwAAAVYAAAAAAAAFbv//+pAAAAJ1///+rwAABBgAAAABAgAAAAeA///4gAAAAXX/////AAAFbQ==</value>
+			<value>AAAAAQAAABwARQB2AGUAbgB0ACAARQBkAGkAdABvAHIAIAAxAAAAQgHZ0MsAAwAA//////////gAAAoAAAAFeAAAA+0AAAIGAAAIDAAAA6kAAAAAAgAAAAoAAAAAAAAAABcAAAn/AAAFdw==</value>
 		</property>
 		<relationship name="activePlatform">
 			<destination>{1317852c-7a99-4402-a02d-9434571decab}</destination>
