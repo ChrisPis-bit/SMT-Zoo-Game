@@ -1,0 +1,2362 @@
+fileFormatVersion: 2
+guid: d4656035078ac9e4e87d9c1e9ddcd66a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_0"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 4199
+        width: 354
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2f68af3efc7db41abb1c4599a743c2
+      internalID: 1039924329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_1"
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 4159
+        width: 461
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209451c781c66544eb26ac68989b3707
+      internalID: -1616517411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_2"
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 4220
+        width: 375
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61210d2538b09f4469b422454a7394a6
+      internalID: 939295751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_3"
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4170
+        width: 359
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efc64c0fdf06c7448af8b6ce70dcb5c
+      internalID: -1148576075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_4"
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 4180
+        width: 347
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030da8c03cc27d147885598b2a73977a
+      internalID: 1625542770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_5"
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 4213
+        width: 288
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc49b1322fdae9479e7d7497a77642c
+      internalID: -1566024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_6"
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 4255
+        width: 369
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e522eab2a1f28f946855144051036081
+      internalID: -890362953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_7"
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 4199
+        width: 219
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468920b671486c447afa752b0803ba71
+      internalID: 386986112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_8"
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 4237
+        width: 424
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa7a1d083666c747b5d16f009c5840b
+      internalID: 907455980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_9"
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 4187
+        width: 333
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec1c9f5316ed3d4993e6f03f491cad5
+      internalID: 1980858045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_10"
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3828
+        width: 323
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af4e6ac400e88a4cbaaace1169520a7
+      internalID: -1119467711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_11"
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 3767
+        width: 351
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2281bc965bab9b443842b4e70202319f
+      internalID: -2002032928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_12"
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 3814
+        width: 380
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41ae805c35a28a4b8baaffc180e79aa
+      internalID: 1425271315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_13"
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 3724
+        width: 347
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455229a09b3d9db4d95e69c9f9610b4e
+      internalID: -1674756501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_14"
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 3774
+        width: 218
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab9396ceb1ea534eb782ca731dcbed0
+      internalID: 582519883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_15"
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 3805
+        width: 350
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092424a2ef9b3a146ab470504fe78ffb
+      internalID: 1673119044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_16"
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 3753
+        width: 307
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976ee251ed3036f49a4c080b079fea7d
+      internalID: -1326166162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_17"
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 3769
+        width: 297
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83491269cf59bd44bcded9fc9f3ce65
+      internalID: 828006946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_18"
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 3767
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b460444a4bba3e147a4ec99e8d75f345
+      internalID: 148555360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_19"
+      rect:
+        serializedVersion: 2
+        x: 4390
+        y: 3790
+        width: 408
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afb7e0c1ba26544bb67a25c0be31582
+      internalID: 1376306865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_20"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3299
+        width: 391
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea51e436ce6f61448ced27d4c1a7128
+      internalID: 54243346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_21"
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 3306
+        width: 343
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4628608b8f6eef24986f56d5de679df2
+      internalID: 1940892060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_22"
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3401
+        width: 444
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184ec0de5169d104da18c9190b1b57de
+      internalID: 803480737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_23"
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3330
+        width: 300
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcd52bdd1ab2814f9c9974a4bafd69d
+      internalID: 1929232818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_24"
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 3349
+        width: 139
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92887b52b30559845be1965cb5414d3a
+      internalID: -156666916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_25"
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 3363
+        width: 254
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2a76b7c73419e488df181a982d8ada
+      internalID: -2126575316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_26"
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 3365
+        width: 411
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23240dc7eb1a85148a4c629a29793ece
+      internalID: -1957481714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_27"
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 3359
+        width: 281
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2143560ffe18c4ba580e47482d372d
+      internalID: -158564474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_28"
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 3377
+        width: 350
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf339ddad475c5d498a5e172b7549fdb
+      internalID: 167153052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_29"
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 3358
+        width: 286
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5738078d5042e43b3c51ee3dad3659
+      internalID: 776842774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_30"
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2888
+        width: 298
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8795d6dd385f241a00a4fad2c4c999
+      internalID: -1978419174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_31"
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2872
+        width: 423
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3962272156e454789a0428d6ceb171
+      internalID: -1051071251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_32"
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2848
+        width: 427
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b68859c83a379c4db10449e50078844
+      internalID: -1168324840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_33"
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 2844
+        width: 410
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466cc9262bce6df49844d469ea42fbc0
+      internalID: 928436373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_34"
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 2922
+        width: 366
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee95732a247cd124bb7fe906fcdd9373
+      internalID: 238628540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_35"
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 2940
+        width: 271
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08400dfd61d2b8943987828eb3c03207
+      internalID: 1179045650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_36"
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 2917
+        width: 291
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c2a4af20bc744e876ae7ce23dca53
+      internalID: 1674569112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_37"
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 2922
+        width: 165
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4b1b0d21d1f7a46b176f5989fafac1
+      internalID: 1558911379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_38"
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 2924
+        width: 382
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b570ed36df6fe248a7a952c2006c9dd
+      internalID: -1349623393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_39"
+      rect:
+        serializedVersion: 2
+        x: 4385
+        y: 2945
+        width: 416
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3994da0ad07425942bde967bd300a837
+      internalID: -1403945155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_40"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2383
+        width: 274
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ce2d3a3ffde794e82ffc6ef566ebe4
+      internalID: -531618582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_41"
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2388
+        width: 357
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cd63af1b349d04aa85d8fab4b6e985
+      internalID: -240466361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_42"
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2367
+        width: 293
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c298d693b945fc7419628e76d6fd4c0a
+      internalID: -422432241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_43"
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2433
+        width: 425
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6b5d219e2e7824e90f9e9cb48ed204
+      internalID: -1027312513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_44"
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 2395
+        width: 347
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ac1504ea7861a41b38a3853c05fae3
+      internalID: -609067816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_45"
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 2459
+        width: 494
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3ff651331b9f04fb245084515261e0
+      internalID: -1496521183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_46"
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 2397
+        width: 317
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca19caf3ec3d4d546a5974f4c275e8fc
+      internalID: 1358340944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_47"
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 2449
+        width: 364
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1b19366459e5140acb8b75ee6a8fa3
+      internalID: -2075755562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_48"
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 2402
+        width: 420
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfdb3b3b7f23e14f9ea49c994fc839d
+      internalID: -1345255485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_49"
+      rect:
+        serializedVersion: 2
+        x: 4421
+        y: 2468
+        width: 347
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dd215e7063d884eaeaa5caf91f1678
+      internalID: -1155119325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_50"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1930
+        width: 306
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a6982856c115b43b5d1af4a0e4dbf0
+      internalID: -1635987684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_51"
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1923
+        width: 274
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1827c01069b6e2478c5e503a370cc9a
+      internalID: -1187515362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_52"
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1916
+        width: 285
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b21d26d1f9d1e4ea0e5ab13ff91189
+      internalID: -369052233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_53"
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1935
+        width: 411
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847e0574e021d744bb5c9be7f24a8ef3
+      internalID: 429888126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_54"
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 1958
+        width: 390
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db1f5a11a6ce1148b31e10d540a8849
+      internalID: -1341885554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_55"
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1970
+        width: 406
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae50bffa01a6aba4f9bd69fcb4df1630
+      internalID: -1568399334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_56"
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 1952
+        width: 439
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67a76dc691a17140a986b359eae7dbe
+      internalID: -259064887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_57"
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 1942
+        width: 403
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcf1bbc03d35f9449a04de701ff0c12
+      internalID: 1760552519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_58"
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 1916
+        width: 385
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c4c03d4c60b08439f314d53bbb837b
+      internalID: 1396130470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_59"
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 1930
+        width: 314
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b506afab4166a0e498c7178833af154b
+      internalID: -1731231235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_60"
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1555
+        width: 382
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335f466096fa5e047b915b0320381380
+      internalID: -833440737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_61"
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1500
+        width: 402
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c5a8c95a26db44390775233382cf5c
+      internalID: -1191327938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_62"
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1604
+        width: 340
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e23e1a914ab3a246bf5b4466f2d0e8c
+      internalID: -570180030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_63"
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1557
+        width: 330
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da626b5739437a4ab7c84b40fd4ca3a
+      internalID: -877253394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_64"
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 1514
+        width: 234
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52209bd0a34210e4faa356cc7a09a2a8
+      internalID: 386816599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_65"
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1529
+        width: 454
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaa39c28b178c94eb74a96ff1eb480c
+      internalID: 711396606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_66"
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 1578
+        width: 391
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9574057f9bb014a4c8d9625208483040
+      internalID: -120221568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_67"
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 1536
+        width: 417
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c785d57520da29e40a4707718152f68a
+      internalID: -326304954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_68"
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 1576
+        width: 396
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6ba0dfc21563347a04012c5d1c0ce1
+      internalID: 327533850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_69"
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 1592
+        width: 333
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0dbfd372dd2354ebfb8183f420ae64
+      internalID: 56380686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_70"
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1035
+        width: 404
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14da80ba4ab75e74a9dee49d63ce8217
+      internalID: -917737547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_71"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1099
+        width: 365
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb52195fbb77a4b91152d87fcce9a3
+      internalID: 930420311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_72"
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1046
+        width: 265
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8be627b95e9544fa468dcc66fa2c95
+      internalID: 567718050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_73"
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1075
+        width: 188
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355a36b6cc5b99148aca5be19d9b0f7a
+      internalID: 1435091058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_74"
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 1130
+        width: 191
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fb239c47a5c814bb2372996ae057c7
+      internalID: -949343267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_75"
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 998
+        width: 370
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541b609587add684db4bd11674fc5531
+      internalID: -2004734593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_76"
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 1092
+        width: 388
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7690c386ec788a47a751057b1a746ba
+      internalID: -420696543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_77"
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 1028
+        width: 325
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6df8c6ff87d0d2458e0a911ce3b5365
+      internalID: -1217313620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_78"
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 1040
+        width: 305
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd9b70d3f1037740bd018b7daeaa684
+      internalID: -621589472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_79"
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 1045
+        width: 416
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369a4501ed0b85942a83f148315ef671
+      internalID: -52236312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_80"
+      rect:
+        serializedVersion: 2
+        x: 4414
+        y: 1090
+        width: 361
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41e335e5683e664fb3a5a3984069d21
+      internalID: -622887403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_81"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 535
+        width: 336
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e86c688091f26140af3ab4de0516a68
+      internalID: 710842718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_82"
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 558
+        width: 340
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8f191fecb4df746b2a3443f1c29f0d
+      internalID: -2023775862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_83"
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 539
+        width: 377
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a992e8c40ce5f74fa17e8f0f4f1dc44
+      internalID: 841716741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_84"
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 596
+        width: 312
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07016414bf3c74b43b8d8a339e1d7e28
+      internalID: 1509339429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_85"
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 558
+        width: 442
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d4bf1940ea32b42869c19080f43596
+      internalID: 1854234828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_86"
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 558
+        width: 354
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fbf53fb3bfdc84d8f5bca556e0dab8
+      internalID: 1123433769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_87"
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 648
+        width: 435
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807634a4d47368d499daad0055d8544d
+      internalID: 1329789389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_88"
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 504
+        width: 380
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6b829a486ee724599ff7b534c6d24a
+      internalID: -1102388710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_89"
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 523
+        width: 396
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d94da280e2c45458eaea952b2f320d
+      internalID: 1821638085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_90"
+      rect:
+        serializedVersion: 2
+        x: 4461
+        y: 544
+        width: 267
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab786466e25f87e4cab4a5a9a19f4818
+      internalID: -2091435494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_91"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 60
+        width: 286
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e4e3d76afb2bf4e8a20c80d3315f7a
+      internalID: 1351414041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_92"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 67
+        width: 279
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f853ebb8413212e44a3961cda4f176ae
+      internalID: -2147246775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_93"
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 143
+        width: 392
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bb02052859c6a43a43286fa8e58083
+      internalID: -829809733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_94"
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 129
+        width: 359
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6425c01f7f9545840a2d67116c0f93f6
+      internalID: -1584893177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_95"
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 105
+        width: 410
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860471f74778f614799cb6adbdbcae7a
+      internalID: -542277244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_96"
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 98
+        width: 342
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bc6b4fa74c16c4d8ee73fd1cf0d839
+      internalID: -1434291026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_97"
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 96
+        width: 335
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568f5468ac59d9d49b6a9a3ded443a82
+      internalID: 174960000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_98"
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 124
+        width: 368
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f3b1d8fb87e4c43973e05b6dcbb3e0
+      internalID: 1965303055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_99"
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 48
+        width: 396
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac432154a83c5b498c92fd49034df40
+      internalID: 403049414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014100 animals icons setCut_100"
+      rect:
+        serializedVersion: 2
+        x: 4381
+        y: 107
+        width: 427
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb17c04a7fd0624d9bab80afc6e92fb
+      internalID: -1255405321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 191937f0bddce00458421627783d4c41
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014100 animals icons setCut_0": 1039924329
+      "\u2014Pngtree\u2014100 animals icons setCut_1": -1616517411
+      "\u2014Pngtree\u2014100 animals icons setCut_10": -1119467711
+      "\u2014Pngtree\u2014100 animals icons setCut_100": -1255405321
+      "\u2014Pngtree\u2014100 animals icons setCut_11": -2002032928
+      "\u2014Pngtree\u2014100 animals icons setCut_12": 1425271315
+      "\u2014Pngtree\u2014100 animals icons setCut_13": -1674756501
+      "\u2014Pngtree\u2014100 animals icons setCut_14": 582519883
+      "\u2014Pngtree\u2014100 animals icons setCut_15": 1673119044
+      "\u2014Pngtree\u2014100 animals icons setCut_16": -1326166162
+      "\u2014Pngtree\u2014100 animals icons setCut_17": 828006946
+      "\u2014Pngtree\u2014100 animals icons setCut_18": 148555360
+      "\u2014Pngtree\u2014100 animals icons setCut_19": 1376306865
+      "\u2014Pngtree\u2014100 animals icons setCut_2": 939295751
+      "\u2014Pngtree\u2014100 animals icons setCut_20": 54243346
+      "\u2014Pngtree\u2014100 animals icons setCut_21": 1940892060
+      "\u2014Pngtree\u2014100 animals icons setCut_22": 803480737
+      "\u2014Pngtree\u2014100 animals icons setCut_23": 1929232818
+      "\u2014Pngtree\u2014100 animals icons setCut_24": -156666916
+      "\u2014Pngtree\u2014100 animals icons setCut_25": -2126575316
+      "\u2014Pngtree\u2014100 animals icons setCut_26": -1957481714
+      "\u2014Pngtree\u2014100 animals icons setCut_27": -158564474
+      "\u2014Pngtree\u2014100 animals icons setCut_28": 167153052
+      "\u2014Pngtree\u2014100 animals icons setCut_29": 776842774
+      "\u2014Pngtree\u2014100 animals icons setCut_3": -1148576075
+      "\u2014Pngtree\u2014100 animals icons setCut_30": -1978419174
+      "\u2014Pngtree\u2014100 animals icons setCut_31": -1051071251
+      "\u2014Pngtree\u2014100 animals icons setCut_32": -1168324840
+      "\u2014Pngtree\u2014100 animals icons setCut_33": 928436373
+      "\u2014Pngtree\u2014100 animals icons setCut_34": 238628540
+      "\u2014Pngtree\u2014100 animals icons setCut_35": 1179045650
+      "\u2014Pngtree\u2014100 animals icons setCut_36": 1674569112
+      "\u2014Pngtree\u2014100 animals icons setCut_37": 1558911379
+      "\u2014Pngtree\u2014100 animals icons setCut_38": -1349623393
+      "\u2014Pngtree\u2014100 animals icons setCut_39": -1403945155
+      "\u2014Pngtree\u2014100 animals icons setCut_4": 1625542770
+      "\u2014Pngtree\u2014100 animals icons setCut_40": -531618582
+      "\u2014Pngtree\u2014100 animals icons setCut_41": -240466361
+      "\u2014Pngtree\u2014100 animals icons setCut_42": -422432241
+      "\u2014Pngtree\u2014100 animals icons setCut_43": -1027312513
+      "\u2014Pngtree\u2014100 animals icons setCut_44": -609067816
+      "\u2014Pngtree\u2014100 animals icons setCut_45": -1496521183
+      "\u2014Pngtree\u2014100 animals icons setCut_46": 1358340944
+      "\u2014Pngtree\u2014100 animals icons setCut_47": -2075755562
+      "\u2014Pngtree\u2014100 animals icons setCut_48": -1345255485
+      "\u2014Pngtree\u2014100 animals icons setCut_49": -1155119325
+      "\u2014Pngtree\u2014100 animals icons setCut_5": -1566024
+      "\u2014Pngtree\u2014100 animals icons setCut_50": -1635987684
+      "\u2014Pngtree\u2014100 animals icons setCut_51": -1187515362
+      "\u2014Pngtree\u2014100 animals icons setCut_52": -369052233
+      "\u2014Pngtree\u2014100 animals icons setCut_53": 429888126
+      "\u2014Pngtree\u2014100 animals icons setCut_54": -1341885554
+      "\u2014Pngtree\u2014100 animals icons setCut_55": -1568399334
+      "\u2014Pngtree\u2014100 animals icons setCut_56": -259064887
+      "\u2014Pngtree\u2014100 animals icons setCut_57": 1760552519
+      "\u2014Pngtree\u2014100 animals icons setCut_58": 1396130470
+      "\u2014Pngtree\u2014100 animals icons setCut_59": -1731231235
+      "\u2014Pngtree\u2014100 animals icons setCut_6": -890362953
+      "\u2014Pngtree\u2014100 animals icons setCut_60": -833440737
+      "\u2014Pngtree\u2014100 animals icons setCut_61": -1191327938
+      "\u2014Pngtree\u2014100 animals icons setCut_62": -570180030
+      "\u2014Pngtree\u2014100 animals icons setCut_63": -877253394
+      "\u2014Pngtree\u2014100 animals icons setCut_64": 386816599
+      "\u2014Pngtree\u2014100 animals icons setCut_65": 711396606
+      "\u2014Pngtree\u2014100 animals icons setCut_66": -120221568
+      "\u2014Pngtree\u2014100 animals icons setCut_67": -326304954
+      "\u2014Pngtree\u2014100 animals icons setCut_68": 327533850
+      "\u2014Pngtree\u2014100 animals icons setCut_69": 56380686
+      "\u2014Pngtree\u2014100 animals icons setCut_7": 386986112
+      "\u2014Pngtree\u2014100 animals icons setCut_70": -917737547
+      "\u2014Pngtree\u2014100 animals icons setCut_71": 930420311
+      "\u2014Pngtree\u2014100 animals icons setCut_72": 567718050
+      "\u2014Pngtree\u2014100 animals icons setCut_73": 1435091058
+      "\u2014Pngtree\u2014100 animals icons setCut_74": -949343267
+      "\u2014Pngtree\u2014100 animals icons setCut_75": -2004734593
+      "\u2014Pngtree\u2014100 animals icons setCut_76": -420696543
+      "\u2014Pngtree\u2014100 animals icons setCut_77": -1217313620
+      "\u2014Pngtree\u2014100 animals icons setCut_78": -621589472
+      "\u2014Pngtree\u2014100 animals icons setCut_79": -52236312
+      "\u2014Pngtree\u2014100 animals icons setCut_8": 907455980
+      "\u2014Pngtree\u2014100 animals icons setCut_80": -622887403
+      "\u2014Pngtree\u2014100 animals icons setCut_81": 710842718
+      "\u2014Pngtree\u2014100 animals icons setCut_82": -2023775862
+      "\u2014Pngtree\u2014100 animals icons setCut_83": 841716741
+      "\u2014Pngtree\u2014100 animals icons setCut_84": 1509339429
+      "\u2014Pngtree\u2014100 animals icons setCut_85": 1854234828
+      "\u2014Pngtree\u2014100 animals icons setCut_86": 1123433769
+      "\u2014Pngtree\u2014100 animals icons setCut_87": 1329789389
+      "\u2014Pngtree\u2014100 animals icons setCut_88": -1102388710
+      "\u2014Pngtree\u2014100 animals icons setCut_89": 1821638085
+      "\u2014Pngtree\u2014100 animals icons setCut_9": 1980858045
+      "\u2014Pngtree\u2014100 animals icons setCut_90": -2091435494
+      "\u2014Pngtree\u2014100 animals icons setCut_91": 1351414041
+      "\u2014Pngtree\u2014100 animals icons setCut_92": -2147246775
+      "\u2014Pngtree\u2014100 animals icons setCut_93": -829809733
+      "\u2014Pngtree\u2014100 animals icons setCut_94": -1584893177
+      "\u2014Pngtree\u2014100 animals icons setCut_95": -542277244
+      "\u2014Pngtree\u2014100 animals icons setCut_96": -1434291026
+      "\u2014Pngtree\u2014100 animals icons setCut_97": 174960000
+      "\u2014Pngtree\u2014100 animals icons setCut_98": 1965303055
+      "\u2014Pngtree\u2014100 animals icons setCut_99": 403049414
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7798368709683732281
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -61
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386650732812970049, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3805299555976560285, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_Name
+      value: Monkeys Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708085707115844600, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708085707115844600, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873162941472936491, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1912439c095b1eb4e82a4364d5fde849, type: 3}
+    - target: {fileID: 7873162941472936491, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873162941472936491, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873162941472936491, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6104317
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631816973161562724, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/Animals/Monkeys
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631816973161562724, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631816973161562724, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631816973161562724, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1449723411
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631816973161562724, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1298063206
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631816973161562724, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 1355677628
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631816973161562724, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1590684111
+      objectReference: {fileID: 0}
+    - target: {fileID: 9127579975841223951, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
+      propertyPath: m_text
+      value: Monkeys
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1fe4e8803d9ed3459503ebba49271f2, type: 3}
