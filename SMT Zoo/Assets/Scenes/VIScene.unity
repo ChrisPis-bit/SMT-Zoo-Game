@@ -8047,6 +8047,7 @@ Transform:
   - {fileID: 1123949044}
   - {fileID: 1562261219}
   - {fileID: 2019465692}
+  - {fileID: 1618901303}
   - {fileID: 110238087}
   - {fileID: 996447082}
   - {fileID: 1452174696}
@@ -8073,6 +8074,7 @@ MonoBehaviour:
   - {fileID: 1123949044}
   - {fileID: 1562261219}
   - {fileID: 2019465692}
+  - {fileID: 1618901303}
   - {fileID: 110238087}
   - {fileID: 996447082}
   - {fileID: 1452174696}
@@ -10641,6 +10643,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1618901302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1618901303}
+  m_Layer: 0
+  m_Name: P (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1618901303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618901302}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.2, y: 0, z: -68.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1185716026}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1685379141
 GameObject:
   m_ObjectHideFlags: 0
@@ -11665,7 +11698,7 @@ Transform:
   m_GameObject: {fileID: 2019465691}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.5, y: 0, z: -68.1}
+  m_LocalPosition: {x: 35.5, y: 0, z: -36.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11922,6 +11955,8 @@ GameObject:
   - component: {fileID: 2125314562}
   - component: {fileID: 2125314564}
   - component: {fileID: 2125314563}
+  - component: {fileID: 2125314565}
+  - component: {fileID: 2125314566}
   m_Layer: 0
   m_Name: GuardAI
   m_TagString: Untagged
@@ -11938,7 +11973,7 @@ Transform:
   m_GameObject: {fileID: 2125314560}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.7, y: 0, z: 65.5}
+  m_LocalPosition: {x: -22.5, y: 0, z: 65.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12011,6 +12046,53 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2125314565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125314560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -442012153
+      Data2: 1209498481
+      Data3: -1633966421
+      Data4: 1377423192
+    Path: event:/Guard/Whistle
+  Event: 
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 70
+--- !u!114 &2125314566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125314560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5c2e2c4a8d1cf4d82b032d0cc7496b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _emitter: {fileID: 2125314565}
+  _player: {fileID: 963194228}
+  _distFar: 38
+  _distClose: 18
 --- !u!1001 &1240100411673612708
 PrefabInstance:
   m_ObjectHideFlags: 0

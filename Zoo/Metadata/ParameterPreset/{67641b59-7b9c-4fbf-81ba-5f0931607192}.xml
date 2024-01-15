@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{67641b59-7b9c-4fbf-81ba-5f0931607192}">
+		<property name="name">
+			<value>WhistleType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7d4aa169-53f2-46a7-be66-ec7a38868578}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{708e6e0f-4d8d-426c-be5c-066c650c2cdf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{708e6e0f-4d8d-426c-be5c-066c650c2cdf}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Far</value>
+			<value>Near</value>
+			<value>Close</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
