@@ -376,7 +376,6 @@ MonoBehaviour:
   - Master
   Banks:
   - Animals
-  - Guard
   - SFX
   BanksToLoad: []
   LiveUpdatePort: 9264
