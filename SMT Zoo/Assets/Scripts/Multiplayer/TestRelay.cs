@@ -8,14 +8,14 @@ using Unity.Networking.Transport.Relay;
 using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TestRelay : MonoBehaviour
 {
     public static TestRelay Instance { get; private set; }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    
+    private void Awake() {
+        Instance = this;
     }
 
     public async Task<string> CreateRelay()
@@ -33,6 +33,8 @@ public class TestRelay : MonoBehaviour
             NetworkManager.Singleton.GetComponent<UnityTransport>().SetRelayServerData(relayServerData);
 
             NetworkManager.Singleton.StartHost();
+
+            NetworkManager.Singleton.SceneManager.LoadScene("VIScene", LoadSceneMode.Additive);
 
             return joinCode;
         }
