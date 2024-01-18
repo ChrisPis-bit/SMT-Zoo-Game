@@ -2,13 +2,863 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017eb154-a5e1-46fe-bbfa-8bb10953bfc3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SMT Zoo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SMT Zoo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Footstep.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Footstep/Footstep.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Footstep/Footstep.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Footstep/Footstep_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Footstep/Footstep_audio.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_1_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_1_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_2_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_2_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_3_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_3_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_4_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_4_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_5_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/BrickWall_5_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/BotaoAlarmeFASE1.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/BotaoAlarmeFASE1.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Botão d.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Botão d.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/BotãoMAT.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/BotãoMAT.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Botão_d.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Botão_d.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Botão_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Botão_d.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Materials/Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Materials/Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Materials/button-Default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/Materials/button-Default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botao_ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botao_ao.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botao_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botao_m.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botao_n.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botao_n.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botao_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botao_n.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botão_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/botão_r.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/button.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Materials/button.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/East_TargetObject2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/East_TargetObject2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/East_TriggerObject1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/East_TriggerObject1.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/North_TargetObject1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/North_TargetObject1.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/North_TriggerObject1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/North_TriggerObject1.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/South_TargetObject2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/South_TargetObject2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/South_TriggerObject1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/South_TriggerObject1.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/West_TargetObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/West_TargetObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/West_TriggerObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Script_button/West_TriggerObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button/Northern_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button/Northern_audio.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button/eastern_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button/eastern_audio.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button/southern_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button/southern_audio.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button/western_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Button/Sounds_button/western_audio.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Materials/Board.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Materials/Board.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Materials/Metal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Materials/Metal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Materials/Page.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Materials/Page.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Meshes/ClipBoard.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Meshes/ClipBoard.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Prefab/Clipboard.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Prefab/Clipboard.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/ReadMe.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/ReadMe/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/ReadMe/ReadMe.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Scene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Scene/ExampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_board_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_board_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_board_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_board_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_metal_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_metal_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_metal_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_metal_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_metal_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_metal_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_page_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_page_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_page_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Textures/clipboard2_page_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Compass_Rose.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Compass_Rose.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/MonitorModelFinal.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/MonitorModelFinal.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/computer-palette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/computer-palette.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/computer-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/computer-screen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/connector-female.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/connector-female.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/floppy-label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/floppy-label.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/keyboard-keys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/keyboard-keys.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/old-computer.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/old-computer.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/ribbon-cable-connector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/ribbon-cable-connector.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/ribbon-cable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Computer/ribbon-cable.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut_Glossiness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut_Glossiness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut_Normal(DirectX).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut_Normal(DirectX).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut_Specular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Donut_Specular.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_Orange.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_Orange.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_Pink.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_Pink.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_01_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Gray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Gray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Purple.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_02_Purple.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_03_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_03_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_03_Orange.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_03_Orange.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_03_Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_03_Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Brown.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Brown.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Gray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Gray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Yellow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Apartment_Yellow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Fancy.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Fancy.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Industrial_Dark.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Industrial_Dark.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Industrial_Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Industrial_Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Industrial_White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Industrial_White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Sliding.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Materials/Door_Sliding.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Samples.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Samples.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01_Blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01_Orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01_Orange.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01_Pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01_Pink.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_01_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02_Gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02_Gray.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02_Green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02_Green.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_02_Purple.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_03_LightBrown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_03_LightBrown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_03_Orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_03_Orange.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01_Gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01_Gray.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01_blue.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01_red.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01_yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Apartment_01_yellow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Industrial_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Industrial_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Industrial_01_Brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Industrial_01_Brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Industrial_01_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Industrial_01_dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Rich_01_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Rich_01_White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Sliding_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Door Texture Pack/Textures/Door_Sliding_01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Boxx-Games Assets - README.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Boxx-Games Assets - README.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials/FREE_Breakfast02Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials/FREE_Breakfast02Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials/FREE_BreakfastGlasMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials/FREE_BreakfastGlasMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials/FREE_BreakfastGlasMaterial_Copy.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials/FREE_BreakfastGlasMaterial_Copy.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials/FREE_BreakfastMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Materials/FREE_BreakfastMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_BreakfastBoard.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_BreakfastBoard.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_CheeseSlice.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_CheeseSlice.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_CoffeeInCup.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_CoffeeInCup.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_CupCoffeeBreakfast.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_CupCoffeeBreakfast.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Flower01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Flower01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Flower02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Flower02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Glas.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Glas.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_JamCup.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_JamCup.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_JuiceGlas.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_JuiceGlas.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Kiwi.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Kiwi.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Lemon.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Lemon.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Newspaper.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Newspaper.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Note.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Note.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_PlateBigBreakfast.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_PlateBigBreakfast.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Sausage.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Sausage.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Slate.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Slate.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_SugarCubes.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_SugarCubes.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Toast.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Models/Free_Toast.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_BreakfastBoard.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_BreakfastBoard.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_CheeseSlice.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_CheeseSlice.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_CoffeeInCup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_CoffeeInCup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_CupCoffeeBreakfast.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_CupCoffeeBreakfast.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_CupCoffeeBreakfast_WIthCoffeeInCup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_CupCoffeeBreakfast_WIthCoffeeInCup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Flower01.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Flower01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Flower02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Flower02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Glas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Glas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_JamCup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_JamCup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_JuiceGlas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_JuiceGlas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Kiwi.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Kiwi.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Lemon.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Lemon.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Newspaper.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Newspaper.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Note.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Note.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_PlateBigBreakfast.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_PlateBigBreakfast.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Sausage.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Sausage.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Slate.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Slate.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_SugarCubes.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_SugarCubes.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Toast.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Free_Toast.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Glas_WithJuice.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Glas_WithJuice.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Plate_WithCoffee.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Plate_WithCoffee.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Plate_WithToastTopping.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Plate_WithToastTopping.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Toast_WithTopping.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/Toast_WithTopping.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/WoodBoard_WithCoffee.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Prefabs/WoodBoard_WithCoffee.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/SRP UpgradePackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Scenes/DemoScene-Free Food-BreakfastTime.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Scenes/DemoScene-Free Food-BreakfastTime.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_Breakfast02Material_AO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_Breakfast02Material_AO.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_Breakfast02Material_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_Breakfast02Material_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_Breakfast02Material_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_Breakfast02Material_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_Breakfast02Material_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_Breakfast02Material_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastGlasMaterial_AO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastGlasMaterial_AO.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastGlasMaterial_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastGlasMaterial_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastGlasMaterial_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastGlasMaterial_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastGlasMaterial_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastGlasMaterial_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastMaterial_AO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastMaterial_AO.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastMaterial_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastMaterial_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastMaterial_MetallicSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastMaterial_MetallicSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastMaterial_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free Food-BreakfastTime/Textures/FREE_BreakfastMaterial_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Demo/Demo Setup.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Demo/Demo Setup.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Materials/Tile Floor Displacement.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Materials/Tile Floor Displacement.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Displacement.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Displacement.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Gloss.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Gloss.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Metalness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Metalness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Roughness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Tile Floor/Textures/Tile Floor_4K_Roughness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Demo/Floor Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Demo/Floor Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials/Wooden Floor 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials/Wooden Floor 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials/Wooden Floor 3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials/Wooden Floor 3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials/Wooden Floor 4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials/Wooden Floor 4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials/Wooden Floor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Materials/Wooden Floor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Albedo.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Albedo.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Displacement.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Displacement.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Gloss.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Gloss.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Metalness.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Metalness.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Materials/Wooden Floor_4K_Normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Displacement.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Displacement.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Gloss.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Gloss.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Metalness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Metalness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Roughness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor/Wooden Floor_4K_Roughness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Displacement.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Displacement.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Gloss.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Gloss.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Metalness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Metalness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Roughness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor2/Wooden Floor2_4K_Roughness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Displacement.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Displacement.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Gloss.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Gloss.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Metalness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Metalness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Roughness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor3/Wooden Floor3_4K_Roughness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Materials/Wooden Floor4_4K_Gloss.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Materials/Wooden Floor4_4K_Gloss.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Displacement.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Displacement.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Gloss.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Gloss.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Metalness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Metalness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Roughness.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Free/Wooden Floor Pack/Textures/Wooden Floor4/Wooden Floor4_4K_Roughness.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_ao.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_diffuseOriginal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_diffuseOriginal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_metallic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_metallic.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp 1/copper_lamp_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp_material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Lamp_material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/ceiling-fan.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/ceiling-fan.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/desk.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/desk.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/filing-cabinet.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/filing-cabinet.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/image_2023-06-27_183631865.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/image_2023-06-27_183631865.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/retro_computer_setup_Mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/retro_computer_setup_Mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/swivel-chair.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Materials/swivel-chair.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Mouse_interaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Mouse_interaction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/New Material 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/New Material 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/OldUrbanBrickWall_Complete.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/OldUrbanBrickWall_Complete.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/OldUrbanBrickWall_Standard.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/OldUrbanBrickWall_Standard.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/SiScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/TackBoard_Alpha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/TackBoard_Alpha.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/TackBoard_Diffuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/TackBoard_Diffuse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/TackBoard_Roughness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/TackBoard_Roughness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Tack_Board.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/Tack_Board.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/ceiling-fan.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/ceiling-fan.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/ceiling-fan.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/ceiling-fan.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/desk.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/desk.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/desk.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/desk.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Materials/Table and Chair.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Materials/Table and Chair.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Model.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Model/Folding Table and Chair FBX.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Model/Folding Table and Chair FBX.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Prefabs/CHAIR_Folding.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Prefabs/CHAIR_Folding.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Prefabs/TABLE_Folding.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Prefabs/TABLE_Folding.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Scene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Scene/Folding Table and Chair Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Scene/Folding Table and Chair Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Scene/Folding Table and Chair SceneSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Scene/Folding Table and Chair SceneSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_AO.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_AO.bmp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_AlbedoTransparency.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_AlbedoTransparency.bmp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_MetallicSmoothness.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_MetallicSmoothness.bmp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_Normal.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/devotid/Folding Table and Chair/Textures/Folding Table and Chair FBX_Table and Chair_Normal.bmp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/donut_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/donut_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/filing-cabinet-empty.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/filing-cabinet-empty.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/filing-cabinet.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/filing-cabinet.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Lampara.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Lampara.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/AO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/AO.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/internal_ground_ao_texture.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/internal_ground_ao_texture.jpeg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/light_b_BaseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/light_b_BaseColor.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/light_b_Emissive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/light_b_Emissive.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/light_b_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/light_b_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/metallic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/metallic.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/roughness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/lamp/Materials/roughness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/scene.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/scene.gltf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/swivel-chair.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/swivel-chair.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/swivel-chair.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/swivel-chair.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/test_sound.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Guard_house/test_sound.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Keyboard.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Keyboard.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Monitor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Monitor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Mouse.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Mouse.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Screen.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Screen.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Tower.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Computer 1-Tower.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Keyboard.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Keyboard.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Monitor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Monitor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screen.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Screen.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Tower.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Tower.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/mouse.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/mouse.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/filing-cabinet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/filing-cabinet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/New Material 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/New Material 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SharedScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SharedScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/ceiling-fan_albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/ceiling-fan_albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/ceiling-fan_ao.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/ceiling-fan_ao.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/ceiling-fan_metal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/ceiling-fan_metal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/ceiling-fan_normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/ceiling-fan_normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/desk_albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/desk_albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/desk_ao.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/desk_ao.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/desk_metal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/desk_metal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/desk_normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/desk_normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/filing-cabinet-albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/filing-cabinet-albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/filing-cabinet-normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/filing-cabinet-normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/swivel-chair-albedo.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/swivel-chair-albedo.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/swivel-chair-normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/swivel-chair-normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/swivel-chair_ao.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/swivel-chair_ao.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE].meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/DemoScene's.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/DemoScene's/BrickWalls_Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/DemoScene's/BrickWalls_Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/DemoScene's/WoodenFloors_Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/DemoScene's/WoodenFloors_Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Documentation/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Documentation/ReadMe.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/BrickWalls.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/DemoSkybox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/DemoSkybox/Procedural_Skybox_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/DemoSkybox/Procedural_Skybox_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_1_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_1_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_2_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_2_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_3_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_3_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_4_mat.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Materials/WoodFloors/WoodFloor_4_mat.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_1_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_1_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_2_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_2_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_3_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_3_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_4_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_4_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_5_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/BrickWall_5_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/WoodFloor_1_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/WoodFloor_1_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/WoodFloor_2_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/WoodFloor_2_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/WoodFloor_3_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/WoodFloor_3_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/WoodFloor_4_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Albedo/WoodFloor_4_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_1_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_1_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_2_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_2_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_3_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_3_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_4_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_4_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_5_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/BrickWall_5_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/WoodFloor_1_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/WoodFloor_1_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/WoodFloor_2_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/WoodFloor_2_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/WoodFloor_3_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/WoodFloor_3_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/WoodFloor_4_Height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Height/WoodFloor_4_Height.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_1_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_1_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_2_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_2_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_3_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_3_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_4_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_4_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_5_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/BrickWall_5_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/WoodFloor_1_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/WoodFloor_1_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/WoodFloor_2_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/WoodFloor_2_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/WoodFloor_3_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/WoodFloor_3_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/WoodFloor_4_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Ultra 4K Brick &amp; Wood Texture Pack [FREE]/Textures/Normal/WoodFloor_4_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Shaders/DisplacementStandardSpecular.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Shaders/DisplacementStandardSpecular.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/albedo_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/albedo_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/complete_1k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/complete_1k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/heightmap_1k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/heightmap_1k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/normals_2k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/normals_2k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/specular_1k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/Textures/specular_1k.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/sample.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/sample.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/sampleSettings.lighting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zololgo/Old urban brick texture/sampleSettings.lighting.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/models/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/models/Materials/filing-cabinet.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/models/Materials/filing-cabinet.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/models/filing-cabinet-drawer.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/models/filing-cabinet-drawer.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/buildrecords/Desktop/Button_trigger.br" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/fsbcache/Desktop/21B37F51.fobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/fsbcache/Desktop/65A999A3.fobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/fsbcache/Desktop/91C8201B.fobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/fsbcache/Desktop/9DBDC98F.fobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/fsbcache/Desktop/DB782E25.fobj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/{1bdd8a2f-4209-4aa3-9fd7-a999f9b489e4}.pdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/{37b62ef7-2648-44d3-9e9b-98c916d02048}.pdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/{d89232ce-60a5-4ced-9680-e61a14d09978}.pdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.cache/{dbc8a03e-4968-431f-9035-4bc4f2284ee0}.pdc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/AudioFile/{1bdd8a2f-4209-4aa3-9fd7-a999f9b489e4}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/AudioFile/{37b62ef7-2648-44d3-9e9b-98c916d02048}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/AudioFile/{d89232ce-60a5-4ced-9680-e61a14d09978}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/AudioFile/{dbc8a03e-4968-431f-9035-4bc4f2284ee0}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/Bank/{19e9795b-11a9-4c95-a5e6-9d4496b4da2f}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/Event/{80085415-95d1-44a0-95af-7cf53abf42f1}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/Event/{9ca86196-9232-4898-be82-c65ab2bec8dd}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/Event/{dccc851a-a306-4c8e-a0e9-ab52d2a233e5}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/Event/{efe3e05b-eeb5-42c4-940e-81e570000040}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/Event/{f741e628-b2fc-401b-b07c-55801ae42843}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/Metadata/EventFolder/{0fcabff0-d407-4d2e-bb1c-1b42da87bb5c}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/.unsaved/metadataFileMapping.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Assets/Northern_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Assets/eastern_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Assets/southern_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Assets/western_audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Build/Desktop/Button_trigger.bank" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Metadata/AudioFile/{1bdd8a2f-4209-4aa3-9fd7-a999f9b489e4}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Metadata/AudioFile/{37b62ef7-2648-44d3-9e9b-98c916d02048}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Metadata/AudioFile/{d89232ce-60a5-4ced-9680-e61a14d09978}.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zoo/Metadata/AudioFile/{dbc8a03e-4968-431f-9035-4bc4f2284ee0}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Test/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Test/Green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Test/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Test/Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guard_house/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guard_house/New Terrain.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMODUnity.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/FMODUnity.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/LICENSE.TXT.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/LICENSE.TXT.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platform_ios.mm.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platform_ios.mm.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmod.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmod.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmod.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmod.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudioL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudioL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/fmod.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/fmod.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudio.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudio.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudioL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudioL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudio.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudio.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudioL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudioL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudio.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudio.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudioL.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudioL.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounityplugin.bc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounityplugin.bc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounitypluginL.bc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounitypluginL.bc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounityplugin.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounityplugin.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginL.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginL.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulatorL.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulatorL.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudio.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudio.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudioL.so" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudioL.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudioL.so.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudioL.so.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/MacOS/fmodstudio" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/MacOS/fmodstudio" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/MacOS/fmodstudioL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/MacOS/resonanceaudio" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/mac/lib/resonanceaudio.bundle/Contents/MacOS/resonanceaudio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginL.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginL.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulator.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulator.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulatorL.a" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulatorL.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmod.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudio.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmod.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudio.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudioL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudioL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmod.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmod.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudio.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudioL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudioL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudio.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudioL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudioL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudioL.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudioL.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudio.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EditorUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Platform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformPlayInEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/PlatformPlayInEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/RuntimeUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod_errors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/src/fmod_errors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guard_house/SiScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guard_house/Clipboard/Scene/ExampleScene.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/VIScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VIScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/PlayerSpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplayer/PlayerSpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoo/.cache/buildrecords/Desktop/Master.br" beforeDir="false" afterPath="$PROJECT_DIR$/../Zoo/.cache/buildrecords/Desktop/Master.br" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoo/.cache/{2620dc65-b532-4393-9d7a-c505dcf1260c}.pdc" beforeDir="false" afterPath="$PROJECT_DIR$/../Zoo/.cache/{2620dc65-b532-4393-9d7a-c505dcf1260c}.pdc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zoo/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../Zoo/Build/Desktop/Master.strings.bank" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
