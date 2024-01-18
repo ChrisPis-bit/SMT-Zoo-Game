@@ -406,11 +406,9 @@ MonoBehaviour:
   - Master
   Banks:
   - Animals
-  - Button triggers
-  - Footstep
+  - Button_trigger
   - Guard
   - SFX
-  - Sound effects
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
