@@ -28,6 +28,10 @@ public class PlayerMovement : NetworkBehaviour
 
     void Start()
     {
+        if (!IsOwner)
+        {
+            return;
+        }
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
