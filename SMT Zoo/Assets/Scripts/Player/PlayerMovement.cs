@@ -28,10 +28,6 @@ public class PlayerMovement : NetworkBehaviour
 
     void Start()
     {
-        if (!IsOwner)
-        {
-            return;
-        }
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -61,10 +57,7 @@ public class PlayerMovement : NetworkBehaviour
             moveDirection.y = movementDirectionY;
         }
 
-        if (!characterController.isGrounded)
-        {
-            moveDirection.y -= gravity * Time.deltaTime;
-        }
+        
 
         if (Input.GetKey(KeyCode.R) && canMove)
         {
