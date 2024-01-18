@@ -1,14 +1,15 @@
+using Mirror;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.Networking.Transport.Relay;
 using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using NetworkManager = Unity.Netcode.NetworkManager;
 
 public class TestRelay : MonoBehaviour
 {
@@ -34,7 +35,7 @@ public class TestRelay : MonoBehaviour
 
             NetworkManager.Singleton.StartHost();
 
-            NetworkManager.Singleton.SceneManager.LoadScene("VIScene", LoadSceneMode.Additive);
+            NetworkManager.Singleton.SceneManager.LoadScene("VIScene", LoadSceneMode.Single);
 
             return joinCode;
         }
