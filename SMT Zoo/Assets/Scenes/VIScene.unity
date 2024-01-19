@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4465763, g: 0.4964121, b: 0.5748187, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657665, g: 0.49641216, b: 0.5748189, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5122,8 +5122,8 @@ GameObject:
   - component: {fileID: 216628580}
   - component: {fileID: 216628578}
   - component: {fileID: 216628577}
-  - component: {fileID: 216628582}
   - component: {fileID: 216628576}
+  - component: {fileID: 216628582}
   m_Layer: 0
   m_Name: West_audio
   m_TagString: Untagged
@@ -5257,7 +5257,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 216628575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 444f97f0373c985448cdf080ddb9dc50, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b6b3236cfbf9674499df329488adbb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundEmitter: {fileID: 216628576}
@@ -5288,7 +5288,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -63.589268, y: 14.741772, z: 36.703262}
   m_LocalScale: {x: 11.153495, y: 11.153495, z: 11.153495}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1951964244}
   - {fileID: 665555362}
@@ -6364,10 +6364,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 290688009}
+      addedObject: {fileID: 290688012}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 290688012}
+      addedObject: {fileID: 290688013}
   m_SourcePrefab: {fileID: 100100000, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
 --- !u!4 &290688006 stripped
 Transform:
@@ -6379,19 +6379,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
   m_PrefabInstance: {fileID: 290688005}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &290688009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290688007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8cd29d20835d444db8b18fecd2cef7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundEmitter: {fileID: 216628576}
 --- !u!65 &290688012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6413,6 +6400,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0015999994, y: 0.0013247638, z: 0.0016700003}
   m_Center: {x: -0.0107, y: -0.010062383, z: 0.009265001}
+--- !u!114 &290688013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290688007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5ade4d9c05e894e9113800399f8bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  announcementManager: {fileID: 412298808}
+  direction: 3
+  soundEmitter: {fileID: 0}
 --- !u!1 &342150950
 GameObject:
   m_ObjectHideFlags: 0
@@ -6730,6 +6732,76 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &412298806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 412298809}
+  - component: {fileID: 412298807}
+  - component: {fileID: 412298808}
+  m_Layer: 0
+  m_Name: AnnouncementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &412298807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412298806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 2120472337
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &412298808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412298806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8479fee67b96dee42a472d9cea67e8fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _soundPlayers:
+  - {fileID: 1177716820}
+  - {fileID: 2116182315}
+  - {fileID: 990456285}
+  - {fileID: 216628582}
+--- !u!4 &412298809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412298806}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &484888251
 GameObject:
   m_ObjectHideFlags: 0
@@ -6755,7 +6827,7 @@ Transform:
   m_GameObject: {fileID: 484888251}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.5, y: -21.1, z: 104.4}
+  m_LocalPosition: {x: -24.69, y: -21.1, z: 77.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8997,10 +9069,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 758731925}
+      addedObject: {fileID: 758731924}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 758731924}
+      addedObject: {fileID: 758731925}
   m_SourcePrefab: {fileID: 100100000, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
 --- !u!4 &758731918 stripped
 Transform:
@@ -9042,10 +9114,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 758731919}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8a81a5ba3b177544aad130408d5787a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d5ade4d9c05e894e9113800399f8bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundEmitter: {fileID: 990456279}
+  announcementManager: {fileID: 412298808}
+  direction: 2
+  soundEmitter: {fileID: 0}
 --- !u!1 &760425796
 GameObject:
   m_ObjectHideFlags: 0
@@ -9403,8 +9477,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 60, y: 3.9, z: 266}
-  m_LocalScale: {x: 0.089658, y: 0.089658, z: 0.089658}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1970398238}
   - {fileID: 1908558850}
@@ -9631,8 +9705,8 @@ GameObject:
   - component: {fileID: 990456284}
   - component: {fileID: 990456283}
   - component: {fileID: 990456282}
-  - component: {fileID: 990456285}
   - component: {fileID: 990456279}
+  - component: {fileID: 990456285}
   m_Layer: 0
   m_Name: South_audio
   m_TagString: Untagged
@@ -9745,7 +9819,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 990456278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3db7cad1ed98b884a8d1b9ffe87b775b, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b6b3236cfbf9674499df329488adbb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundEmitter: {fileID: 990456279}
@@ -9833,7 +9907,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.9136091, g: 0.9339623, b: 0.6035511, a: 1}
   m_Intensity: 1
-  m_Range: 50
+  m_Range: 22.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -10691,10 +10765,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 216628581}
-  - {fileID: 990456284}
-  - {fileID: 2116182314}
   - {fileID: 1177716819}
+  - {fileID: 2116182314}
+  - {fileID: 990456284}
+  - {fileID: 216628581}
   m_Father: {fileID: 86181087}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1177716813
@@ -10709,8 +10783,8 @@ GameObject:
   - component: {fileID: 1177716818}
   - component: {fileID: 1177716817}
   - component: {fileID: 1177716815}
-  - component: {fileID: 1177716820}
   - component: {fileID: 1177716814}
+  - component: {fileID: 1177716820}
   m_Layer: 0
   m_Name: North_audio
   m_TagString: Untagged
@@ -10844,7 +10918,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1177716813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a85c10aaa18e70f46ab8c6362d810c50, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b6b3236cfbf9674499df329488adbb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundEmitter: {fileID: 1177716814}
@@ -12193,10 +12267,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1211742770}
+      addedObject: {fileID: 1211742773}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1211742773}
+      addedObject: {fileID: 1211742774}
   m_SourcePrefab: {fileID: 100100000, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
 --- !u!4 &1211742766 stripped
 Transform:
@@ -12208,19 +12282,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
   m_PrefabInstance: {fileID: 1211742765}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1211742770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211742767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e912f82f9cf97428236212a396b862, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundEmitter: {fileID: 2116182309}
 --- !u!65 &1211742773
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12242,6 +12303,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0015999995, y: 0.0013247638, z: 0.0016700004}
   m_Center: {x: -0.0106999995, y: -0.010062382, z: 0.009265001}
+--- !u!114 &1211742774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211742767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5ade4d9c05e894e9113800399f8bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  announcementManager: {fileID: 412298808}
+  direction: 1
+  soundEmitter: {fileID: 0}
 --- !u!1 &1220926097
 GameObject:
   m_ObjectHideFlags: 0
@@ -14414,10 +14490,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1789859048}
+      addedObject: {fileID: 1789859051}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1789859051}
+      addedObject: {fileID: 1789859052}
   m_SourcePrefab: {fileID: 100100000, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
 --- !u!4 &1789859044 stripped
 Transform:
@@ -14429,19 +14505,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae1228df6dad35345a2c90880c171da2, type: 3}
   m_PrefabInstance: {fileID: 1789859043}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1789859048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1789859045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d403d71ab3d32c240b42c9c860096b8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundEmitter: {fileID: 1177716814}
 --- !u!65 &1789859051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14463,6 +14526,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0015999995, y: 0.0013247638, z: 0.0016700004}
   m_Center: {x: -0.01069994, y: -0.0100623965, z: 0.009265002}
+--- !u!114 &1789859052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789859045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5ade4d9c05e894e9113800399f8bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  announcementManager: {fileID: 412298808}
+  direction: 0
+  soundEmitter: {fileID: 0}
 --- !u!43 &1825352790
 Mesh:
   m_ObjectHideFlags: 0
@@ -15477,7 +15555,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.9136091, g: 0.9339623, b: 0.6035511, a: 1}
   m_Intensity: 1
-  m_Range: 50
+  m_Range: 22.2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -15963,8 +16041,8 @@ GameObject:
   - component: {fileID: 2116182313}
   - component: {fileID: 2116182312}
   - component: {fileID: 2116182310}
-  - component: {fileID: 2116182315}
   - component: {fileID: 2116182309}
+  - component: {fileID: 2116182315}
   m_Layer: 0
   m_Name: East_audio
   m_TagString: Untagged
@@ -16098,7 +16176,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2116182308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54d9b7255a8f03740b3efc789c035114, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b6b3236cfbf9674499df329488adbb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundEmitter: {fileID: 2116182309}
@@ -16918,3 +16996,4 @@ SceneRoots:
   - {fileID: 1323899438}
   - {fileID: 889893322}
   - {fileID: 1747996654}
+  - {fileID: 412298809}
