@@ -13,7 +13,32 @@ public enum Direction
 
 public class AnnouncementManager : NetworkBehaviour
 {
+    [SerializeField] private float _cooldown = 5.0f;
     [SerializeField] private SoundPlayer[] _soundPlayers;
+
+    private float _currentTime = 0;
+
+    public float CurrentCooldownTime =>_currentTime;
+    public float CooldownTime => _cooldown;
+
+    private void Update()
+    {
+        if (_currentTime <= 0)
+            _currentTime = 0;
+        else
+            _currentTime -= Time.deltaTime;
+    }
+
+    public bool PlayAnnouncement(Direction dir)
+    {
+        if (_currentTime > 0)
+            return false;
+
+        _currentTime = _cooldown;
+        PlayAnnouncementServerRpc(dir);
+
+        return true;
+    }
 
     [ServerRpc]
     public void PlayAnnouncementServerRpc(Direction dir)

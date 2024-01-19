@@ -11,7 +11,8 @@ public class ClickDetector : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("Clicked " + direction.ToString());
-        //soundEmitter.Play();
-        announcementManager.PlayAnnouncementServerRpc(direction);
+        if (announcementManager.PlayAnnouncement(direction))
+            if (soundEmitter != null) soundEmitter.Play();
+
     }
 }
