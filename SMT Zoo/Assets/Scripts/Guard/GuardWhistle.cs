@@ -13,7 +13,6 @@ public enum WhistleType
 public class GuardWhistle : MonoBehaviour
 {
     [SerializeField] private StudioEventEmitter _emitter;
-    [SerializeField] private Transform _player;
 
     [SerializeField] private float _distFar = 25.0f;
     [SerializeField] private float _distClose = 10.0f;
@@ -22,9 +21,14 @@ public class GuardWhistle : MonoBehaviour
 
     private void Update()
     {
+        Vector3 playerPos = Vector3.zero;
+
+        if (PlayerMovement.LocalPlayer != null)
+            playerPos = PlayerMovement.LocalPlayer.transform.position;
+
         WhistleType type = WhistleType.Far;
 
-        float dist = Vector3.Distance(_player.position, transform.position);
+        float dist = Vector3.Distance(playerPos, transform.position);
         if (dist <= _distClose)
             type = WhistleType.Close;
         else if (dist <= _distFar)
