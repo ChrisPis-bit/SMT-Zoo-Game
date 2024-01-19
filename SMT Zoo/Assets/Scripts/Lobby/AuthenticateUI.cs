@@ -7,12 +7,14 @@ public class AuthenticateUI : MonoBehaviour {
 
 
     [SerializeField] private Button authenticateButton;
+    [SerializeField] private Transform lobbyUI;
 
 
     private void Awake() {
         authenticateButton.onClick.AddListener(() => {
             LobbyManager.Instance.Authenticate(EditPlayerName.Instance.GetPlayerName());
             Hide();
+            lobbyUI.gameObject.SetActive(true);
         });
     }
 
