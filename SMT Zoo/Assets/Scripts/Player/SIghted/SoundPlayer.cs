@@ -6,6 +6,7 @@ public class SoundPlayer : MonoBehaviour
 {
     // Reference to the FMODUnity.StudioEventEmitter component
     public FMODUnity.StudioEventEmitter soundEmitter;
+    public Transform guardTarget;
 
     public void PlaySound()
     {
