@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{19f11166-8cec-4e9b-a715-4925c68faada}">
+		<property name="assetPath">
+			<value>mixkit-creaky-door-open-195.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.6790022675736962</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b4c44efe-895a-49a6-ac93-bff2aa7ee58b}</destination>
+		</relationship>
+	</object>
+</objects>
