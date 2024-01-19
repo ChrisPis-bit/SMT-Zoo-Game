@@ -37,6 +37,7 @@ public class PlayerMovement : NetworkBehaviour
     {
         if (!IsOwner)
         {
+            playerCamera.gameObject.SetActive(false);
             return;
         }
         Vector3 forward = transform.TransformDirection(Vector3.forward);

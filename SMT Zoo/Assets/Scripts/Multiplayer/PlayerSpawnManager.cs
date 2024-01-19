@@ -37,6 +37,7 @@ public class PlayerSpawnManager : NetworkBehaviour
         else
             newPlayer=Instantiate(playerPrefab, clientTransform	.position, Quaternion.identity);
         NetworkObject netObj=newPlayer.GetComponent<NetworkObject>();
+        
         newPlayer.SetActive(true);
         netObj.SpawnAsPlayerObject(clientId,true);
     }
