@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Multiplayer.Samples.Utilities.ClientAuthority;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,7 +9,10 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : NetworkBehaviour
 {
+    public static GameObject LocalPlayer;
+
     [SerializeField] public Camera playerCamera;
+    public GameObject VIMask;
     public float walkSpeed = 6f;
     public float runSpeed = 12f;
     public float jumpPower = 7f;
@@ -33,6 +37,17 @@ public class PlayerMovement : NetworkBehaviour
         Cursor.visible = false;
     }
 
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        // Makes VI blind.
+        VIMask.SetActive(!IsServer);
+        if (IsLocalPlayer)
+        {
+            LocalPlayer = gameObject;
+        }
+    }
+
     void Update()
     {
         if (!IsOwner)
@@ -40,6 +55,7 @@ public class PlayerMovement : NetworkBehaviour
             playerCamera.gameObject.SetActive(false);
             return;
         }
+
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
@@ -58,7 +74,7 @@ public class PlayerMovement : NetworkBehaviour
             moveDirection.y = movementDirectionY;
         }
 
-        
+
 
         if (Input.GetKey(KeyCode.R) && canMove)
         {

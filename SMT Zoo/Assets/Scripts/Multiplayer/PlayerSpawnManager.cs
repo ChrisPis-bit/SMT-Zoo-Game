@@ -7,8 +7,10 @@ using Random = System.Random;
 
 public class PlayerSpawnManager : NetworkBehaviour
 {
+    public static Vector3 StartPos;
     public GameObject playerPrefab;
     public Transform clientTransform;
+    public Transform VITransform;
     
     public override void OnNetworkSpawn() {
         if (IsServer)
@@ -32,13 +34,16 @@ public class PlayerSpawnManager : NetworkBehaviour
     [ServerRpc(RequireOwnership=false)] //server owns this object but client can request a spawn
     public void SpawnPlayerServerRpc(ulong clientId, bool isHostPlayer) {
         GameObject newPlayer;
+        StartPos = isHostPlayer ? clientTransform.position : VITransform.position;
+
         if (!isHostPlayer)
-            newPlayer=Instantiate(playerPrefab, gameObject.transform.position, Quaternion.identity);
+            newPlayer=Instantiate(playerPrefab, VITransform.position, Quaternion.identity);
         else
             newPlayer=Instantiate(playerPrefab, clientTransform	.position, Quaternion.identity);
         NetworkObject netObj=newPlayer.GetComponent<NetworkObject>();
         
         newPlayer.SetActive(true);
         netObj.SpawnAsPlayerObject(clientId,true);
+
     }
 }
