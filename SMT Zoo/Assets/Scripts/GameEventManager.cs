@@ -10,6 +10,8 @@ public class GameEventManager : NetworkBehaviour
     private const string CSV_NAME = "Results";
 
     public UnityEvent onComplete;
+    public UnityEvent onFail;
+
     public bool GameCompleted { get; private set; }
 
     private float _time = 0;
@@ -28,9 +30,33 @@ public class GameEventManager : NetworkBehaviour
         }
     }
 
+    private void Awake()
+    {
+        GuardAI.onPlayerCaught += OnFailServerRpc;
+    }
+
+    private void OnDestroy()
+    {
+        GuardAI.onPlayerCaught -= OnFailServerRpc;
+    }
+
     private void Update()
     {
         _time += Time.deltaTime;
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void OnFailServerRpc()
+    {
+        OnFailClientRpc();
+    }
+
+    [ClientRpc]
+    private void OnFailClientRpc()
+    {
+        _failCount++;
+        PlayerMovement.LocalPlayer.ResetPosition();
+        onFail?.Invoke();
     }
 
     [ServerRpc(RequireOwnership = false)]

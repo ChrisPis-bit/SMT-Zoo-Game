@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : NetworkBehaviour
 {
-    public static GameObject LocalPlayer;
+    public static PlayerMovement LocalPlayer;
 
     [SerializeField] public Camera playerCamera;
     public GameObject VIMask;
@@ -23,8 +23,9 @@ public class PlayerMovement : NetworkBehaviour
     public float crouchHeight = 1f;
     public float crouchSpeed = 3f;
 
-    private Vector3 moveDirection = Vector3.zero
-;
+    private Vector3 moveDirection = Vector3.zero;
+    private Vector3 _origin;
+
     private float rotationX = 0;
     private CharacterController characterController;
 
@@ -37,6 +38,13 @@ public class PlayerMovement : NetworkBehaviour
         Cursor.visible = false;
     }
 
+    public void ResetPosition()
+    {
+        characterController.enabled = false;
+        transform.position = _origin;
+        characterController.enabled = true;
+    }
+
     public override void OnNetworkSpawn()
     {
         base.OnNetworkSpawn();
@@ -44,8 +52,9 @@ public class PlayerMovement : NetworkBehaviour
         VIMask.SetActive(!IsServer);
         if (IsLocalPlayer)
         {
-            LocalPlayer = gameObject;
+            LocalPlayer = this;
         }
+        _origin = transform.position;
     }
 
     void Update()
