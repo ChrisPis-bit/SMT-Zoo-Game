@@ -98,7 +98,7 @@ public class LobbyUI : MonoBehaviour {
             lobbyPlayerSingleUI.UpdatePlayer(player);
         }
 
-        changeGameModeButton.gameObject.SetActive(LobbyManager.Instance.IsLobbyHost());
+        //changeGameModeButton.gameObject.SetActive(LobbyManager.Instance.IsLobbyHost());
 
         lobbyNameText.text = lobby.Name;
         playerCountText.text = lobby.Players.Count + "/" + lobby.MaxPlayers;
