@@ -17831,7 +17831,7 @@ MonoBehaviour:
   _playerGuardDistance: 3
   _inspectTime: 3
   _recalculateReturnPathInterval: 1
-  _sightRange: 7.5
+  _sightRange: 10
 --- !u!54 &2125314563
 Rigidbody:
   m_ObjectHideFlags: 0

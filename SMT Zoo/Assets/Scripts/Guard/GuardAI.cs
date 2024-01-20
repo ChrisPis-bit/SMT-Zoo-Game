@@ -121,9 +121,12 @@ public class GuardAI : MonoBehaviour
 
     private void ChasePlayer()
     {
-        if (PlayerMovement.LocalPlayer == null)
+        bool playerInSight = PlayerMovement.LocalPlayer != null && Vector3.Distance(PlayerMovement.LocalPlayer.transform.position, transform.position) <= _sightRange;
+
+        if (!playerInSight)
         {
             StartPatrol();
+            Debug.Log("leftState");
             return;
         }
 
