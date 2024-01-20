@@ -3280,7 +3280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b253909307d181240bbc95c38fe7ce54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lobbySingleTemplate: {fileID: 769093583}
+  lobbySingleTemplate: {fileID: 440098440}
   container: {fileID: 249919421}
   refreshButton: {fileID: 1486540094}
   createLobbyButton: {fileID: 1159625182}

@@ -22,7 +22,7 @@ public class GameEventManager : NetworkBehaviour
         }
     }
 
-    [ServerRpc]
+    [ServerRpc(RequireOwnership = false)]
     public void WinGameServerRpc()
     {
         WinGameClientRpc();

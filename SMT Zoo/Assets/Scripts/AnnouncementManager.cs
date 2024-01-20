@@ -43,7 +43,7 @@ public class AnnouncementManager : NetworkBehaviour
         return true;
     }
 
-    [ServerRpc]
+    [ServerRpc(RequireOwnership = false)]
     public void PlayAnnouncementServerRpc(Direction dir)
     {
         PlayAnnouncementClientRpc(dir);
