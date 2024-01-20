@@ -55,6 +55,8 @@ public class PlayerMovement : NetworkBehaviour
             LocalPlayer = this;
         }
         _origin = transform.position;
+
+        if (!IsLocalPlayer) GetComponent<Footstepsoundeffects>().enabled = false;
     }
 
     void Update()
